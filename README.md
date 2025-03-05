@@ -7,23 +7,7 @@ A Task Management REST API built with FastAPI, PostgreSQL, and SQLAlchemy. This 
  Data Validation – Input validation using Pydantic;
  Role-Based Access – Users can only manage their own tasks;
  Interactive API Docs – Auto-generated documentation with Swagger UI;
-# Project Structure
- Task_APP-FastAPI-
-│── app/
-│   ├── main.py          # FastAPI app entry point
-│   ├── database.py      # Database connection with SQLAlchemy
-│   ├── models.py        # Database models (Users & Tasks)
-│   ├── schemas.py       # Pydantic models for request/response validation
-│   ├── config.py        # Configuration file (loads environment variables)
-│   ├── utils.py         # Password hashing & verification functions
-│   ├── oauth2.py        # JWT authentication functions
-│   ├── routers/
-│   │   ├── auth.py      # Authentication endpoints (Login)
-│   │   ├── users.py     # User management endpoints
-│   │   ├── tasks.py     # Task CRUD endpoints
-│── .env                 # Environment variables file
-│── requirements.txt      # Dependencies list
-│── README.md             # Project documentation
+
 # Technologies used
 FastAPI  - Modern web framework for building APIs
 PostgreSQL  - Relational database for storing tasks and users
