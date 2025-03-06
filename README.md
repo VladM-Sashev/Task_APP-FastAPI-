@@ -9,13 +9,13 @@ A Task Management REST API built with FastAPI, PostgreSQL, and SQLAlchemy. This 
  - Interactive API Docs – Auto-generated documentation with Swagger UI;
 
 # Technologies used
-- **FastAPI**  - Modern web framework for building APIs
-- **PostgreSQ**L  - Relational database for storing tasks and users
-- **SQLAlchemy**  - ORM for database interactions
-- **Pydantic**  - Data validation
-- **JWT (JSON Web Tokens)**  - Secure authentication
-- **Postman**  - API testing
-- **Visual Studio Code** ✍ - Development environment
+- FastAPI  - Modern web framework for building APIs
+- PostgreSQL  - Relational database for storing tasks and users
+- SQLAlchemy  - ORM for database interactions
+- Pydantic  - Data validation
+- JWT (JSON Web Tokens)  - Secure authentication
+- Postman  - API testing
+- Visual Studio Code ✍ - Development environment
 # Set Up and Installation 
 # Clone the repository
 # Create Virtual Environment 
