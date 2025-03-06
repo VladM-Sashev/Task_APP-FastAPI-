@@ -3,10 +3,10 @@ A Task Management REST API built with FastAPI, PostgreSQL, and SQLAlchemy. This 
 # Features
  - **User Authentication** – Secure authentication using JWT tokens;
  - **CRUD Operations** – Manage tasks (Create, Read, Update, Delete);
- PostgreSQL Database – Uses SQLAlchemy ORM for database interaction;
- Data Validation – Input validation using Pydantic;
- Role-Based Access – Users can only manage their own tasks;
- Interactive API Docs – Auto-generated documentation with Swagger UI;
+ - **PostgreSQL Database** – Uses SQLAlchemy ORM for database interaction;
+ - **Data Validation** – Input validation using Pydantic;
+ - **Role-Based Access** – Users can only manage their own tasks;
+ - **Interactive API Docs** – Auto-generated documentation with Swagger UI;
 
 # Technologies used
 FastAPI  - Modern web framework for building APIs
