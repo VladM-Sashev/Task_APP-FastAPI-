@@ -18,25 +18,22 @@ A Task Management REST API built with FastAPI, PostgreSQL, and SQLAlchemy. This 
 - **Visual Studio Code** ✍ - Development environment
 # Set Up and Installation 
 # Clone the repository
+# Create Virtual Environment 
 - **python -m venv venv**
 - **source venv/bin/activate**   # macOS/Linux
-- **venv\Scripts\activate**      # Windows
-# Create Virtual Environment 
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
+- **venv\Scripts\activate**     # Windows
 # Install Dependencies
-pip install -r requirements.txt
+- **pip install -r requirements.txt**
 # Set Up Environment variables
-Create a .env file in the root directory and add your PostgreSQL credentials:
-DATABASE_HOSTNAME=localhost
-DATABASE_PORT=5432
-DATABASE_USERNAME=your_username
-DATABASE_PASSWORD=your_password
-DATABASE_NAME=your_database
-SECRET_KEY=your_secret_key
-ALGORITHM=HS256
-TIME_ACCESS_TOKEN=30
+- **Create a .env file in the root directory and add your PostgreSQL credentials:**
+- **database_hostname=localhost**
+- **database_port=5432**
+- **database_username=your_username**
+- **database_password=your_password**
+- **database_name=your_database**
+- **secret_key=your_secret_key**
+- **algorithm=HS256**
+- **time_access_token=30**
 # Run the Application
 uvicorn app.main:app --reload
 The API will be available at:
