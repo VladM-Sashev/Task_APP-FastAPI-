@@ -20,11 +20,11 @@ A Task Management REST API built with FastAPI, PostgreSQL, and SQLAlchemy. This 
 # Clone the repository
 - https://github.com/VladM-Sashev/Task_APP-FastAPI-
 # Create Virtual Environment 
-- **python -m venv venv**
-- **source venv/bin/activate**   # macOS/Linux
-- **venv\Scripts\activate**     # Windows
+- python -m venv venv
+- source venv/bin/activate  # macOS/Linux
+- venv\Scripts\activate    # Windows
 # Install Dependencies
-- **pip install -r requirements.txt**
+- pip install -r requirements.txt
 # Set Up Environment variables
 - **Create a .env file in the root directory and add your PostgreSQL credentials:**
 - **database_hostname=localhost**
