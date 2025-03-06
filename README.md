@@ -18,9 +18,9 @@ A Task Management REST API built with FastAPI, PostgreSQL, and SQLAlchemy. This 
 - **Visual Studio Code** ✍ - Development environment
 # Set Up and Installation 
 # Clone the repository
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
+- **python -m venv venv**
+- **source venv/bin/activate**   # macOS/Linux
+- **venv\Scripts\activate**      # Windows
 # Create Virtual Environment 
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
