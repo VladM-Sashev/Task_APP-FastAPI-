@@ -18,7 +18,8 @@ A Task Management REST API built with **FastAPI**, **PostgreSQL**, and **SQLAlch
 - **Visual Studio Code** ✍ - Development environment
 # Set Up and Installation 
 # Clone the repository
-- https://github.com/VladM-Sashev/Task_APP-FastAPI-
+- Run the following command in your terminal:
+- git clone https://github.com/VladM-Sashev/Task_APP-FastAPI.git
 # Create Virtual Environment 
 - python -m venv venv
 - source venv/bin/activate  # macOS/Linux
